@@ -6,6 +6,7 @@ from math import ceil
 import json
 
 def index(request):
+    print("HElloworld")
 
     allProds = []
     cat_prods = Product.objects.values("category", "product_id")
